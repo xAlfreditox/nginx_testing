@@ -1,0 +1,6 @@
+version: "3"
+services:
+  ngnix:
+    image: alfred/ngnix:npm
+    ports:
+      - "80:80"
